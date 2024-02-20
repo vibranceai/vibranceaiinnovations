@@ -1,4 +1,4 @@
-
+// slider
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   centeredSlides: true,
@@ -49,3 +49,10 @@ document
       '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
     ]);
   });
+
+
+  // POPUP form 
+  function togglePopup() { 
+    const overlay = document.getElementById('popupOverlay'); 
+    overlay.classList.toggle('show'); 
+} 
