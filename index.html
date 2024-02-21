@@ -8,6 +8,7 @@
     <title>Vibranceai Innovation</title>
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
                     <ul id="menu" class="hidden md:flex gap-5 text-sm">
                         <li><a href="#" class="text-gray-800 font-semibold">Home</a></li>
                         <li><a href="#services" class="text-gray-800 font-semibold">Services</a></li>
-                        <li><a href="#" class="text-gray-800 font-semibold">Careers</a></li>
+                        <li><a href="#career" class="text-gray-800 font-semibold">Careers</a></li>
                         <li><a href="#aboutus" class="text-gray-800 font-semibold">About Us</a></li>
                     </ul>
                     <a href="#" class="hidden md:block">
@@ -75,415 +76,462 @@
             HOME PAGE ENDED OVER HERE
         -->
 
+
+            <!-- SERVICES PAGE STARTS OVER HERE -->
+
+            <section class="bg-white dark:bg-gray-900" id="services">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+                    <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Come Work
+                            With Us
+                        </h2>
+                        <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">VibranceAI
+                            Innovation, we builds Dreams, we are Innovators, we are Developers.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="service">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h2>Web and App Development</h2>
+                            <p>Transforming ideas into interactive realities. Expert web and app development services for a dynamic and user-centric online presence.</p>
+                        </div>
+                        <div class="service">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <h2>Marketing</h2>
+                            <p>Web development involves building and maintaining websites or web applications.</p>
+                        </div>
+                        <div class="service">
+                            <i class="fa-solid fa-palette"></i>
+                            <h2>Graphics</h2>
+                            <p>Graphics service providing creative and professional design solutions for diverse visual needs.</p>
+                        </div>
+                        <div class="service">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <h2>Data Analytics</h2>
+                            <p>
+                                Delivering comprehensive Data Analytics services for actionable insights and informed decision-making.</p>
+                        </div>
+                        
+                        <div class="service">
+                            <i class="fa-solid fa-calculator"></i>
+                            <h2>Accounting</h2>
+                            <p>Comprehensive accounting services for businesses, ensuring financial accuracy and compliance.</p>
+                        </div>
+                        <div class="service">
+                            <i class="fa-solid fa-wifi"></i>
+                            <h2>Networking</h2>
+                            <p>
+                                Network service providing efficient and secure connectivity for seamless data exchange.</p>
+                        </div>
+                        <div class="service">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <h2>Search Engine Optimization</h2>
+                            <p>Boost your visibility and rank high. Tailored SEO solutions for increased online reach, organic traffic, and top search engine rankings.</p>
+                        </div>
+                       
+                        <div class="service">
+                            <i class="fa-solid fa-brain"></i>
+                            <h2>AI-ML</h2>
+                            <p>Empowering businesses with intelligence. Harness the potential of Al and ML for smart solutions, automation, and data-driven insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICES PAGE ENDS OVER HERE -->
+
             <!--
-
-            SERVICES START OVER HERE
-
+            INTERNSHIP START OVER HERE
         -->
 
-            <div id="services" class="max-w-screen-xl sm:px-6 sm:py-12 lg:px-8 lg:py-16 ">
+            <div id="career" class="max-w-screen-xl sm:px-6 sm:py-8 lg:px-8 lg:py-10 ">
                 <h2
-                    class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white flex justify-center">
-                    Our Services
+                    class="mb-4 pb-12 text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white flex justify-center">
+                    Internships Domains
                 </h2>
 
-                <div #swiperRef="" class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div
-                                class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
-                                <div class="p-6 sm:px-8">
-                                    <h2 class="text-lg font-medium text-gray-900">
-                                        Web Development
+                <div class="container swiper">
+                    <div class="slide-container">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="swiper-slide">
+                                    <div
+                                        class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
+                                        <div class="p-6 sm:px-8">
+                                            <h2 class="text-lg font-medium text-gray-900">
+                                                Web Development
+                                            </h2>
 
-                                    </h2>
+                                            <p class="mt-2 text-gray-700">Web development involves building and maintaining websites or web applications.</p>
 
-                                    <p class="mt-2 text-gray-700">Expert web development services that bring your vision
-                                        to
-                                        life, delivering responsive and user-friendly websites tailored to your business
-                                        needs.
-                                    </p>
+                                            <button onclick="togglePopup()"
+                                                class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                                                href="#">
+                                                Apply Now
+                                            </button>
+                                        </div>
 
-                                    <button onclick="togglePopup()"
-                                        class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                                        href="#">
-                                        Apply Now
-                                    </button>
-                                </div>
+                                        <div class="p-6 sm:px-8">
+                                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
 
-                                <div class="p-6 sm:px-8">
-                                    <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                                            <ul class="mt-2 space-y-2 sm:mt-4">
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                    <ul class="mt-2 space-y-2 sm:mt-4">
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
+                                                    <span class="text-gray-700"> Certificate </span>
+                                                </li>
 
-                                            <span class="text-gray-700"> 10 users </span>
-                                        </li>
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
+                                                    <span class="text-gray-700"> Flexible Timing </span>
+                                                </li>
 
-                                            <span class="text-gray-700"> Flexible Timing </span>
-                                        </li>
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
+                                                    <span class="text-gray-700"> Email support </span>
+                                                </li>
 
-                                            <span class="text-gray-700"> Email support </span>
-                                        </li>
 
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-red-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Phone support </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-red-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Community access </span>
-                                        </li>
-                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="card swiper-slide">
+                                <div class="swiper-slide">
+                                    <div
+                                        class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
+                                        <div class="p-6 sm:px-8">
+                                            <h2 class="text-lg font-medium text-gray-900">
+                                                UI/UX services
+
+                                            </h2>
+
+                                            <p class="mt-2 text-gray-700">Elevate user engagement with our UI/UX
+                                                services, where thoughtful design meets seamless functionality. </p>
+
+                                            <button onclick="togglePopup()"
+                                                class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                                                href="#">
+                                                Apply Now
+                                            </button>
+                                        </div>
+
+                                        <div class="p-6 sm:px-8">
+                                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+
+                                            <ul class="mt-2 space-y-2 sm:mt-4">
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Certificate </span>
+                                                </li>
+
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Flexible Timing </span>
+                                                </li>
+
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Email support </span>
+                                                </li>
 
 
-                        </div>
-                        <div class="swiper-slide">
-                            <div
-                                class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
-                                <div class="p-6 sm:px-8">
-                                    <h2 class="text-lg font-medium text-gray-900">
-                                        UI / UX Designer
-
-                                    </h2>
-
-                                    <p class="mt-2 text-gray-700">Elevate user engagement with our UI/UX services, where
-                                        thoughtful design meets seamless functionality. </p>
-
-                                    <button onclick="togglePopup()"
-                                        class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                                        href="#">
-                                        Apply Now
-                                    </button>
-                                </div>
-
-                                <div class="p-6 sm:px-8">
-                                    <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
-
-                                    <ul class="mt-2 space-y-2 sm:mt-4">
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Certificate </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Flexible Timing </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Email support </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Letter of Recomendation</span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-red-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Community access </span>
-                                        </li>
-                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="card swiper-slide">
+                                <div class="swiper-slide">
+                                    <div
+                                        class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
+                                        <div class="p-6 sm:px-8">
+                                            <h2 class="text-lg font-medium text-gray-900">
+                                                Python Development
+
+                                            </h2>
+
+                                            <p class="mt-2 text-gray-700">Expert team using Python for scalable,
+                                                high-performance solutions in web applications, data analysis, ml,etc.
+                                            </p>
+
+                                            <button onclick="togglePopup()"
+                                                class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                                                href="#">
+                                                Apply Now
+                                            </button>
+                                        </div>
+
+                                        <div class="p-6 sm:px-8">
+                                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+
+                                            <ul class="mt-2 space-y-2 sm:mt-4">
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Certificate </span>
+                                                </li>
+
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Flexible Timing </span>
+                                                </li>
+
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Email support </span>
+                                                </li>
 
 
-                        </div>
-                        <div class="swiper-slide">
-                            <div
-                                class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
-                                <div class="p-6 sm:px-8">
-                                    <h2 class="text-lg font-medium text-gray-900">
-                                        Java Development
-                                    </h2>
-
-                                    <p class="mt-2 text-gray-700">Empower your projects with our Java development
-                                        expertise,
-                                        delivering robust and scalable solutions.
-                                    </p>
-
-                                    <button onclick="togglePopup()"
-                                        class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                                        href="#">
-                                        Apply Now
-                                    </button>
-                                </div>
-
-                                <div class="p-6 sm:px-8">
-                                    <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
-
-                                    <ul class="mt-2 space-y-2 sm:mt-4">
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> 10 users </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Flexible Timing </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Email support </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-red-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Phone support </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-red-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Community access </span>
-                                        </li>
-                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="card swiper-slide">
+                                <div class="swiper-slide">
+                                    <div
+                                        class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
+                                        <div class="p-6 sm:px-8">
+                                            <h2 class="text-lg font-medium text-gray-900">
+                                                Java Development
+                                            </h2>
 
+                                            <p class="mt-2 text-gray-700">Java applications can run on any device that
+                                                has the Java Virtual Machine (JVM), making it platform-independent.</p>
 
-                        </div>
-                        <div class="swiper-slide">
-                            <div
-                                class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
-                                <div class="p-6 sm:px-8">
-                                    <h2 class="text-lg font-medium text-gray-900">
-                                        Data Analytics
+                                            <button onclick="togglePopup()"
+                                                class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                                                href="#">
+                                                Apply Now
+                                            </button>
+                                        </div>
 
-                                    </h2>
+                                        <div class="p-6 sm:px-8">
+                                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
 
-                                    <p class="mt-2 text-gray-700">Unlock actionable insights from your data with our
-                                        comprehensive data analytics services. </p>
+                                            <ul class="mt-2 space-y-2 sm:mt-4">
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                    <button onclick="togglePopup()"
-                                        class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                                        href="#">
-                                        Apply Now
-                                    </button>
-                                </div>
+                                                    <span class="text-gray-700"> Certificate </span>
+                                                </li>
 
-                                <div class="p-6 sm:px-8">
-                                    <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                    <ul class="mt-2 space-y-2 sm:mt-4">
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
+                                                    <span class="text-gray-700"> Flexible Timing </span>
+                                                </li>
 
-                                            <span class="text-gray-700"> Certificate </span>
-                                        </li>
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
+                                                    <span class="text-gray-700"> Email support </span>
+                                                </li>
 
-                                            <span class="text-gray-700"> Flexible Timing </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Email support </span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Letter of Recomendation</span>
-                                        </li>
-
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-red-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-
-                                            <span class="text-gray-700"> Community access </span>
-                                        </li>
-                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div
-                                class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
-                                <div class="p-6 sm:px-8">
-                                    <h2 class="text-lg font-medium text-gray-900">
-                                        IoT Development
+                            <div class="card swiper-slide">
+                                <div class="swiper-slide">
+                                    <div
+                                        class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
+                                        <div class="p-6 sm:px-8">
+                                            <h2 class="text-lg font-medium text-gray-900">
+                                                IoT development
+                                            </h2>
 
-                                    </h2>
+                                            <p class="mt-2 text-gray-700">Transform your business with our IoT
+                                                development services, connecting the physical and digital worlds.</p>
 
-                                    <p class="mt-2 text-gray-700">Transform your business with our IoT development
-                                        services,
-                                        connecting the physical and digital worlds. </p>
+                                            <button onclick="togglePopup()"
+                                                class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                                                href="#">
+                                                Apply Now
+                                            </button>
+                                        </div>
 
-                                    <button onclick="togglePopup()"
-                                        class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                                        href="#">
-                                        Apply Now
-                                    </button>
+                                        <div class="p-6 sm:px-8">
+                                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+
+                                            <ul class="mt-2 space-y-2 sm:mt-4">
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Certificate </span>
+                                                </li>
+
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Flexible Timing </span>
+                                                </li>
+
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
+
+                                                    <span class="text-gray-700"> Email support </span>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="swiper-slide">
+                                    <div
+                                        class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm swiper-slide">
+                                        <div class="p-6 sm:px-8">
+                                            <h2 class="text-lg font-medium text-gray-900">
+                                                Data Analytics
 
-                                <div class="p-6 sm:px-8">
-                                    <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                                            </h2>
 
-                                    <ul class="mt-2 space-y-2 sm:mt-4">
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
+                                            <p class="mt-2 text-gray-700">Unlock actionable insights from your data with
+                                                our
+                                                comprehensive data analytics services. </p>
 
-                                            <span class="text-gray-700"> Certificate </span>
-                                        </li>
+                                            <button onclick="togglePopup()"
+                                                class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                                                href="#">
+                                                Apply Now
+                                            </button>
+                                        </div>
 
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
+                                        <div class="p-6 sm:px-8">
+                                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
 
-                                            <span class="text-gray-700"> Flexible Timing </span>
-                                        </li>
+                                            <ul class="mt-2 space-y-2 sm:mt-4">
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M4.5 12.75l6 6 9-13.5" />
-                                            </svg>
+                                                    <span class="text-gray-700"> Certificate </span>
+                                                </li>
 
-                                            <span class="text-gray-700"> Email support </span>
-                                        </li>
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-indigo-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
+                                                    <span class="text-gray-700"> Flexible Timing </span>
+                                                </li>
 
-                                            <span class="text-gray-700"> Letter of Recomendation</span>
-                                        </li>
+                                                <li class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="size-5 text-indigo-700">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M4.5 12.75l6 6 9-13.5" />
+                                                    </svg>
 
-                                        <li class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5 text-red-700">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
+                                                    <span class="text-gray-700"> Email support </span>
+                                                </li>
 
-                                            <span class="text-gray-700"> Community access </span>
-                                        </li>
-                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
                     <div class="swiper-pagination"></div>
                 </div>
 
@@ -491,7 +539,7 @@
 
             <!--
 
-            SERVICES PAGE END OVER HERE
+            INTERNSHIP PAGE END OVER HERE
 
         -->
 
@@ -949,6 +997,7 @@
             <!--
             Footer end over here
         -->
+
 
 
         </div>
